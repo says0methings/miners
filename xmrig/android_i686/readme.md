@@ -1,25 +1,6 @@
-# THIS PROJECT HAS EVOLVED INTO A FULL ANDROID APP
-I have used these binaries in a full android app, and have decided to focus my developemnt efforts there.
-
-[Pickaxe](https://github.com/NanoBytesInc/Pickaxe)
-
-Some off-the-cuff features of the app:
-
-* It has an OLED friendly mode
-* Allows you to enter you wallet from a QR code
-* The fastest mining on the market (by roughly %20 on high end phones)
-* Allows you to mine to your own pools
-* Can mine any CryptoNight coin, but has built in support for Monero, Electroneum, Aeon, Sumokoin, and Bytecoin (and soon to be MoneroV).
-* Saves your configurations so they do not need to constantly be re-entered
-* Highly stable (my 5 Android devices have been running for over a week, 24/7 without a problem)
-* Works with the screen off
-* Clean interface
-* Shows an estimated progress in the current share
-* You can un-tick the donation option
-
-# Android (ARM x64) #
-I have the binary setup and ready to go. This will only work on Android, 64 bit, ARM processors.
-If you have an Intel processor, or an ARM 32 bit processor, then there is another folder in this repository for that. This only works on android 5+
+# Android (Intel i686) #
+I have the binary setup and ready to go. This will only work on Android, 64 bit, Intel processors.
+If you have an ARM 64 or 32 bit processor, then there is another folder in this repository for that. This only works on android 5+
 
 Download the app called **Termux** from the app store to be able to run the program.
 ~~~
@@ -39,7 +20,7 @@ git clone https://github.com/NanoBytesInc/miners.git
 
 ## Setting up your config file
 ~~~
-nano ~/miners/android_arm64/config.json
+nano ~/miners/android_i686/config.json
 ~~~
 
 This is where things get a little scary for anyone new to mining, so I will try to be as detailed
@@ -66,7 +47,7 @@ The file should be save at this point! You should be ready to mine!
 
 ## Running the miner
 ~~~
-~/miners/android_arm64/xmrig
+~/miners/android_i686/xmrig
 ~~~
 
 This will start mining.
@@ -96,19 +77,17 @@ If you have any issues report them to me, I want this to work for everyone!
 
 # Expected Hashrate
 
-#### Pixel 2XL (Snapdragon 835, 8 Cores)
-* 1 Thread: ~28 H/S **(Most Efficient)**
-* 2 Threads: ~22 H/S
-* 3 Threads: ~26 H/S
-* 4 Threads: ~30 H/S
-* 6 Threads: ~40 H/S
-* 8 Threads: ~44 H/S **(Highest Speed)**
+#### Nexus Player (Intel Atom Z3560, 4 Cores)
+* 1 Thread: ~8 H/S **(Most Efficient)**
+* 2 Threads: ~15 H/S
+* 3 Threads: ~18 H/S
+* 4 Threads: ~20 H/S **(Highest Speed)**
 
-#### Zenpad 3S 10 (MediaTek MT8176, 6 Cores)
-* 1 Thread: ~9 H/S
-* 2 Threads: ~22 H/S **(Most Efficient)**
-* 4 Threads: ~22 H/S
-* 6 Threads: ~28 H/S **(Highest Speed)**
+#### Nextbook Ares 8 (Intel Atom Z3735F, 4 Cores)
+* 1 Thread: ~8 H/S **(Most Efficient)**
+* 2 Threads: ~14 H/S
+* 4 Threads: ~16 H/S
+* 6 Threads: ~19 H/S **(Highest Speed)**
 
 # Closing the miner
 To close the miner, press `Volume Down + C`
