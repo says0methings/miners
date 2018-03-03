@@ -1,0 +1,25 @@
+crypto/cpuminer-aesb.o: crypto/aesb.c \
+  /usr/lib/clang/5.0.1/include/stdint.h \
+  /data/data/com.termux/files/usr/include/stdint.h \
+  /data/data/com.termux/files/usr/include/bits/wchar_limits.h \
+  /data/data/com.termux/files/usr/include/sys/cdefs.h \
+  /data/data/com.termux/files/usr/include/android/api-level.h \
+  /data/data/com.termux/files/usr/include/android/versioning.h \
+  /usr/lib/clang/5.0.1/include/stddef.h \
+  /usr/lib/clang/5.0.1/include/__stddef_max_align_t.h
+
+/usr/lib/clang/5.0.1/include/stdint.h:
+
+/data/data/com.termux/files/usr/include/stdint.h:
+
+/data/data/com.termux/files/usr/include/bits/wchar_limits.h:
+
+/data/data/com.termux/files/usr/include/sys/cdefs.h:
+
+/data/data/com.termux/files/usr/include/android/api-level.h:
+
+/data/data/com.termux/files/usr/include/android/versioning.h:
+
+/usr/lib/clang/5.0.1/include/stddef.h:
+
+/usr/lib/clang/5.0.1/include/__stddef_max_align_t.h:
