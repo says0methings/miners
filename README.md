@@ -5,7 +5,7 @@ This is a command line utility. You need a terminal emulator. Try com.termux or 
 
 Run ./cpuminer7.null --help for command line. All normal options available.
 
-##Installation
+## Installation
 1. Get https://play.google.com/store/apps/details?id=com.termux&hl=en or other terminal emulator of choice.
 2. wget https://github.com/says0methings/miners/blob/master/cpuminer7.null
 3. chmod 755 cpuminer7.null
