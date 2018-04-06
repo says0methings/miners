@@ -11,8 +11,9 @@ Run ./cpuminer7.null --help for command line. All normal options available.
 4. ./cpuminer7.null --help
 
 All cpuminer command line options should work. The 64bit binary if needed, is https://github.com/says0methings/miners/tree/master/cpuminer/android_arm64 and needs both cpuminer and the shared libraries and a command to export library path before invocation
-export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
-./cpuminer --help
+
+1. export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+2. ./cpuminer --help
 
 ## Issues
 Only allium is a little tested algorithm. You may see bus error crashes. Or worse. This is a work in progress by pure accident. 
